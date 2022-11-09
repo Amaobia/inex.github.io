@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    padding:0;
+}
+.cont{
+    font-family:Quicksand;
+}
+.one{
+    position:sticky;
+    top:0;
+    font-size:35px;
+    background-color:dodgerblue;
+    color:white;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.fam{
+    width:25%;
+    border-radius:5%;
+}
+.chapt{
+    display:flex;
+    background-color:lightblue;
+    padding:5px;
+    justify-content:center;
+    align-items:center;
+}
+.P2{
+    display:flex;
+    flex-direction:row;
+    padding-left:20px;
+    padding-right:20px;
+}
+.am{
+    width:25%;
+    border-radius:5%;
+}
+.wordc2{
+    display:flex;
+    flex-direction:column;
+}
+.AboutFam{
+    text-decoration:underline;
+    display:flex;
+    padding:40px;
+    width:60%;
+    justify-content:center;
+}
+.P1{
+    display:flex;
+    flex-direction:row;
+    padding-left:20px;
+    padding-right:20px;
+}
+.P1p{
+    padding-left:30px;
+}
+.P2p{
+    padding-left:30px;
+}
+.AboutMe{
+    text-decoration:underline;
+    display:flex;
+    padding:40px;
+    justify-content:center;
+}
+.amajumia{
+    width:30%;
+    border:1px solid black;
+}
+.coinc{
+    width:30%;
+    border:1px solid black;
+}
+.bic{
+    width:30%;
+    border:1px solid black;
+}
+.wordc1{
+    display:flex;
+    flex-direction:column;
+}
+.achimgc{
+    justify-content:space-between;
+    padding:50px;
+    display:flex;
+    flex-direction:row;
+}
+.c1{
+    display:flex;
+    flex-direction:row;
+}
+.AboutAch{
+    text-decoration:underline;
+    display:flex;
+    padding:40px;
+}
+.footFruitLong{
+    font-family:QuickSand;
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    color:white;
+}
+@media only screen and (max-width:425px){
+    .am{
+        width:50%;
+        height:50%;
+    }
+    .P1{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .P1p{
+        padding-left:0;
+        align-items:center;
+    }
+    .cont{
+        flex-direction:column;
+    }
+    .fam{
+        width:100%;
+    }
+    .P2{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .achimgc{
+        flex-direction:column;
+        border:2px solid red;
+    }
+    .coinc{
+        height:100px;
+        width:100%;
+    }
+    .bic{
+        height:100px;
+        width:100%;
+    }
+    .AboutAch{
+        font-size:25px;
+        padding-left:23%;
+    }
+    .amajumia{
+        height:100px;
+        width:100%;
+    }
+}
